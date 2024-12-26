@@ -4,7 +4,7 @@ function Change(){
 	let content=elem.textContent;
 
 	let h1element=document.createElement('h1');
-	h1element.textContent=content;
+	h1element.textContent="Entered Metaverse";
 
 	elem.replaceWith(h1element);
 	
