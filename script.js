@@ -4,9 +4,11 @@ function Change(){
 	let elem=document.getElementById('status');
 	
 
+	let h1element=document.createElement('h1');
+	h1element.textContent="Entered Metaverse";
+	elem.textContent="";
 	
-	elem.textContent="Entered Metaverse";
 
-	// elem.replaceWith(h1element);
+	elem.appenChild(h1element);
 	
 }
