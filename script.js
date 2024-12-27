@@ -1,6 +1,7 @@
 //your JS code here. If required.
 function Change(){
 	
+	
 	let elem=document.getElementById('status');
 	
 
@@ -9,6 +10,6 @@ function Change(){
 	elem.textContent="";
 	
 
-	elem.appenChild(h1element);
+	elem.appendChild(h1element);
 	
 }
